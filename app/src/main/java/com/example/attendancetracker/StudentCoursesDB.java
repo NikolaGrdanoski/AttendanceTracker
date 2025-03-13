@@ -1,29 +1,13 @@
 package com.example.attendancetracker;
 
-import static android.database.sqlite.SQLiteDatabase.openOrCreateDatabase;
 
 import android.database.Cursor;
-import android.database.DatabaseErrorHandler;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.content.ContentValues;
 import android.content.Context;
-import android.graphics.Bitmap;
-import android.graphics.drawable.Drawable;
-import android.os.Bundle;
-import android.os.Handler;
-import android.os.Looper;
-import android.os.UserHandle;
 
-import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.io.InputStream;
 
 public class StudentCoursesDB extends SQLiteOpenHelper {
 
@@ -82,12 +66,6 @@ public class StudentCoursesDB extends SQLiteOpenHelper {
     private static final String E_END_TIME = "eEndTime";
 
     private static final String E_NAME = "eName";
-
-    private static final String T_EVENT_DATE = "eventDate";
-
-    private static final String T_EVENT_TIME = "eventTime";
-
-    private static final String T_EVENT_END_TIME = "eventEndTime";
 
     private static final String SE_EVENT_TABLE = "StudentEvents";
 

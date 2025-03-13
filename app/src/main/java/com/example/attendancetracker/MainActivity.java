@@ -1,24 +1,15 @@
 package com.example.attendancetracker;
 
-import static android.os.Build.VERSION_CODES.M;
-
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.app.NotificationChannel;
 import android.app.NotificationManager;
-import android.content.ContentResolver;
-import android.database.CharArrayBuffer;
-import android.database.ContentObserver;
 import android.database.Cursor;
-import android.database.DataSetObserver;
 import android.database.sqlite.SQLiteDatabase;
-import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
 
-
 import android.content.Intent;
-import android.os.Bundle;
 
 import android.view.View;
 import android.widget.Button;

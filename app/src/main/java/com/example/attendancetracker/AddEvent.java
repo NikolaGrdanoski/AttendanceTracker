@@ -1,10 +1,8 @@
 package com.example.attendancetracker;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.fragment.app.DialogFragment;
 
 import android.app.DatePickerDialog;
-import android.app.Fragment;
 
 import android.app.TimePickerDialog;
 import android.content.Intent;

@@ -10,12 +10,10 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
-import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
 import java.util.ArrayList;
-import java.util.Calendar;
 
 public class CoursesClasses extends AppCompatActivity {
 

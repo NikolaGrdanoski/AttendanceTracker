@@ -10,13 +10,9 @@ import android.database.sqlite.SQLiteDatabase;
 import android.icu.text.DateFormat;
 import android.os.Bundle;
 
-import com.google.android.material.timepicker.TimeFormat;
-
-import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Date;
-import java.util.Locale;
 
 public class EventsCalendar extends AppCompatActivity {
 

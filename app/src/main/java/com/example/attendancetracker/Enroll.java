@@ -2,7 +2,6 @@ package com.example.attendancetracker;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.content.Context;
 import android.content.Intent;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
@@ -21,11 +20,6 @@ public class Enroll extends AppCompatActivity {
     String username;
 
     String course;
-
-    Context context;
-
-    Context context1;
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
